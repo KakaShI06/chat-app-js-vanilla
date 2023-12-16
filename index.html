@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat UI</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="chat-container">
+      <div id="chat-list-container">
+        <div class="filter-container">
+          <h2 class="filter-heading">Filter by Title/Order ID</h2>
+          <input
+            type="text"
+            id="filter-input"
+            placeholder="Start Typing to Search"
+          />
+        </div>
+        <ul id="chat-list"></ul>
+      </div>
+
+      <div id="right-section" class="inactive"></div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
